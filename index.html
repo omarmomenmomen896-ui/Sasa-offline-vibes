@@ -3,25 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مكتبة عصام صاصا - المبرمج عمر</title>
+    <title>مكتبة عصام صاصا - برمج عمر</title>
     <style>
-        body { background: #121212; color: #00ff88; font-family: sans-serif; text-align: center; padding: 50px; }
-        .player-card { background: #1e1e1e; border: 2px solid #00ff88; border-radius: 20px; padding: 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
-        h1 { font-size: 2.5rem; }
-        audio { width: 100%; margin-top: 20px; filter: hue-rotate(90deg); }
-        .footer { margin-top: 30px; color: #888; font-size: 14px; }
+        body { background: #0f0f0f; color: #00ff88; font-family: 'Segoe UI', sans-serif; text-align: center; padding: 20px; }
+        .container { max-width: 500px; margin: auto; }
+        .card { background: #1a1a1a; border: 1px solid #333; border-radius: 15px; padding: 15px; margin: 10px 0; transition: 0.3s; }
+        .card:hover { border-color: #00ff88; box-shadow: 0 0 10px #00ff88; }
+        h1 { text-shadow: 0 0 10px #00ff88; font-size: 25px; }
+        audio { width: 100%; margin-top: 10px; filter: hue-rotate(90deg) brightness(1.2); }
+        .dev-name { color: #888; font-size: 12px; margin-top: 20px; }
     </style>
 </head>
 <body>
-    <div class="player-card">
-        <h1>مهرجانات عصام صاصا 🎤</h1>
-        <p>مشروع مبرمج محترف - عمر 2026</p>
-        
-        <audio controls>
-            <source src="هنا_تحط_رابط_الاغنية.mp3" type="audio/mpeg">
-            متصفحك قديم، حدثه يا بطل!
-        </audio>
+    <div class="container">
+        <h1>مهرجانات عصام صاصا 2026 🎤</h1>
+        <p>بواسطة المبرمج عمر</p>
+
+        <div class="card">
+            <h3>وسط دموع وجراح</h3>
+            <audio controls><source src="رابط_1" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="card">
+            <h3>قالو فلاتي واعداء كتير</h3>
+            <audio controls><source src="رابط_2" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="card">
+            <h3>سجاره في سجاره</h3>
+            <audio controls><source src="رابط_3" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="card">
+            <h3>هاتلي بيره شايف عيال محدثه</h3>
+            <audio controls><source src="رابط_4" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="card">
+            <h3>لاف مي ولا منزلتوش من نظري</h3>
+            <audio controls><source src="رابط_5" type="audio/mpeg"></audio>
+        </div>
+
+        <div class="dev-name">تصميم وبرمجة: عمر - GitHub Pro</div>
     </div>
-    <div class="footer">تم البرمجة بواسطة عمر - GitHub Pro</div>
 </body>
 </html>
